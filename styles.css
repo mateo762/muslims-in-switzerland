@@ -25,3 +25,11 @@ p {
     margin-bottom: 15px;
     text-align: justify;
 }
+
+/* Media query for phone screens */
+@media screen and (max-width: 767px) {
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
